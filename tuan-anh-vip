@@ -1,4 +1,4 @@
-local Password_Layer1 = "TUANANN" -- Mật khẩu lớp 1
+local Password_Layer1 = "TUANANH" -- Mật khẩu lớp 1
 local Password_Layer2 = "2602"      -- Mã PIN lớp 2
 
 local Player = game.Players.LocalPlayer
@@ -111,7 +111,7 @@ local inT = Instance.new("TextBox", Frames[1]); inT.Size = UDim2.new(0, 230, 0, 
 local bTele = Btn(Frames[1], "TẤN CÔNG MỤC TIÊU", 40, 230, Color3.fromRGB(100, 0, 0))
 local bMode = Btn(Frames[1], "CHẾ ĐỘ: LOẠN", 75, 230, Color3.fromRGB(0, 0, 150))
 local xl, xd, xu = Adj(Frames[1], 110); local yl, yd, yu = Adj(Frames[1], 145); local zl, zd, zu = Adj(Frames[1], 180)
-local bAtk = Btn(Frames[1], "TUANANN IMPACT (VIP)", 220, 230, Color3.fromRGB(100, 60, 0)); local bAnti = Btn(Frames[1], "TUANANH VB VIPPRO: TẮT", 255, 230, Color3.fromRGB(0, 80, 0))
+local bAtk = Btn(Frames[1], "TUANANH IMPACT (VIP)", 220, 230, Color3.fromRGB(100, 60, 0)); local bAnti = Btn(Frames[1], "TUANANH VB VIPPRO: TẮT", 255, 230, Color3.fromRGB(0, 80, 0))
 
 -- TAB 2: HITBOX
 local bHB = Btn(Frames[2], "TUANANH HITBOX VIP: BẬT", 0, 230, Color3.fromRGB(0, 150, 0)); local hl, hd, hu = Adj(Frames[2], 35)
@@ -146,7 +146,7 @@ local function UI()
     bFarm.BackgroundColor3 = AutoFarmActive and Color3.fromRGB(0, 150, 0) or Color3.fromRGB(200, 0, 0)
     bE.BackgroundColor3 = SpamEActive and Color3.fromRGB(0, 150, 0) or Color3.fromRGB(200, 0, 0)
     
-    bHB.Text = IsHitboxAll and "WANDER HITBOX VIP: BẬT" or "WANDER HITBOX VIP: TẮT"
+    bHB.Text = IsHitboxAll and "TUANANH HITBOX VIP: BẬT" or "TUANANH HITBOX VIP: TẮT"
     bHB.BackgroundColor3 = IsHitboxAll and Color3.fromRGB(0, 150, 0) or Color3.fromRGB(100, 100, 255)
     
     wl.Text = "T/ĐỘ " .. CurrentWS
@@ -471,4 +471,4 @@ R.Heartbeat:Connect(function()
 	end
 end)
 
-N("SYSTEM","TuanAnh Loaded.")
+N("SYSTEM","TUANANH loaded.")
