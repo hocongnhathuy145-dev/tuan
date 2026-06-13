@@ -1,4 +1,4 @@
-local Password_Layer1 = "TUANANH" -- Mật khẩu lớp 1
+local Password_Layer1 = "TuanAnh" -- Mật khẩu lớp 1
 local Password_Layer2 = "2602"      -- Mã PIN lớp 2
 
 local Player = game.Players.LocalPlayer
